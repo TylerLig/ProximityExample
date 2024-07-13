@@ -5,7 +5,7 @@ This project extends from the item code defined in https://github.com/TylerLig/S
 ## Core Components
 
 ### `AProximityItem_Actor`
-Represents an item in the game world that can interact with other entities based on proximity. The actor automatically registers itself with the Proximity Game State and initializes either from a item definition, creating the necessary item instance and marking it for replication.
+Represents an item in the game world that can interact with other entities based on proximity. The actor automatically registers itself with the Proximity Game State and initializes from a item definition, creating the necessary item instance and marking it for replication.
 
 ### `AProximity_Actor`
 Base class that `AProximityItem_Actor` inherits from, providing shared functionality for proximity actors.
